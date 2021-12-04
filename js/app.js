@@ -10,22 +10,3 @@ form.addEventListener("submit", function(e){
     })
     
 })
-
-
-
-// function request(){
-//     fetch("https://jsonplaceholder.typicode.com/posts")
-//     .then(function(response){
-//         return response.json()
-//     })
-//     .then((response) => {
-//         var result = document.getElementById("result")
-//         var item =""
-//         console.log(response)
-//         response.array.forEach (element => {
-//             item = "User Id:" + element.userId + "id:1" + element.id +"title:" + element.title + "<br><br>"
-//         })
-//         console.log(item)
-//         result.append(item)
-//     });
-// }
